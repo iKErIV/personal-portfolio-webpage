@@ -28,7 +28,7 @@ html {
 #navbar a {
     color: #edf2f4;
     text-decoration: none;
-    padding: 22px 25px;
+    padding: 23px 25px;
 }
 
 #navbar a:hover {
@@ -65,4 +65,52 @@ html {
 
 #projects {
     background-color: #3a6ea5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects h2 {
+    max-width: 90vw;
+    margin: 45px 0 2px 0;
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+hr {
+    border: 1.5px solid #fff;
+    width: 82vw;
+    margin-bottom: 45px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px; 
+    text-align: center;
+}
+
+#projects .project a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color .2s ease-in-out;
+}
+
+#projects .project a:hover {
+  color: #c8b6ff;
+}
+
+#projects .project a img {
+    width: 95%;
+    vertical-align: middle;
+} 
+
+#projects .project .project-title {
+    width: 95%;
+    background-color: #003049;
+    padding: 25px 5px;
+    margin: auto;
 }
