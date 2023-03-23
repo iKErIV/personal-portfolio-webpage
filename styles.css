@@ -114,3 +114,67 @@ hr {
     padding: 25px 5px;
     margin: auto;
 }
+
+
+/* Contact section */
+
+#contact {
+    background-color: #353535;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    letter-spacing: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid red;
+}
+
+#contact h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#contact p {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+#contact ul li {
+    list-style-type: none;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact ul li:hover {
+    transform: translateY(-0.25em);
+    transition: 0.35s;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #353535;
+    height: 12vh;
+    margin-top: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
