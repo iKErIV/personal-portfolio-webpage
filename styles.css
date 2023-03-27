@@ -76,18 +76,16 @@ html {
     color: #fff;
     font-size: 38px;
     text-align: center;
+    border-bottom: 1.5px solid #fff;
 }
 
-hr {
-    border: 1.5px solid #fff;
-    width: 82vw;
-    margin-bottom: 45px;
+#projects .grid {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 25px; 
     text-align: center;
 }
@@ -100,16 +98,16 @@ hr {
 }
 
 #projects .project a:hover {
-  color: #c8b6ff;
+  color: #ffe5d9;
 }
 
 #projects .project a img {
-    width: 95%;
+    width: 98%;
     vertical-align: middle;
 } 
 
 #projects .project .project-title {
-    width: 95%;
+    width: 98%;
     background-color: #003049;
     padding: 25px 5px;
     margin: auto;
@@ -177,4 +175,28 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (min-width: 640px) {
+    #projects {
+        width: 100%;
+    }
+
+    #projects .grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #projects .grid .project {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #projects .grid .project {
+        width: 28%;
+        margin: 15px;
+    }
 }
